@@ -12,7 +12,7 @@ int vuln(){
 }
 int main(int argc, char*argv[]){
     if (argv[1]==0){
-        prinf("Missing arguments\n");
+        printf("Missing arguments\n");
     }
     vuln();
     return 0;
